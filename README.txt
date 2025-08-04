@@ -1,22 +1,26 @@
-# Projeto Automação: Consolidação e Limpeza de Planilhas Excel
+automacao_excel_python
+Projeto Automação: Consolidação e Limpeza de Planilhas Excel
+Descrição
+Este projeto automatiza a consolidação, limpeza e padronização de dados extraídos de múltiplas planilhas Excel, utilizando Python e bibliotecas como pandas.
 
-## Descrição
-
-Este projeto automatiza a consolidação, limpeza e padronização de dados extraídos de múltiplas planilhas Excel, utilizando Python e bibliotecas como `pandas`.
-
-## Estrutura do Projeto
-
-- `input/` - Pasta onde as planilhas Excel devem ser colocadas para serem processadas.
-- `output/` - Pasta onde o arquivo final consolidado será salvo.
-- `leitura_consolidacao.py` - Script para ler e consolidar os arquivos Excel.
-- `limpeza.py` - Funções para limpeza dos dados (remoção de duplicatas e linhas vazias).
-- `padronizacao.py` - Padronização dos nomes das colunas.
-- `salvar_resultado.py` - Script principal que integra todas as etapas e salva o resultado final.
-
-## Como Usar
-
-1. Coloque suas planilhas Excel dentro da pasta `input/`.
-2. Execute o script principal:
-
-```bash
+Estrutura do Projeto
+input/ - Pasta onde as planilhas Excel devem ser colocadas para serem processadas.
+output/ - Pasta onde o arquivo final consolidado será salvo.
+leitura_consolidacao.py - Script para ler e consolidar os arquivos Excel.
+limpeza.py - Funções para limpeza dos dados (remoção de duplicatas e linhas vazias).
+padronizacao.py - Padronização dos nomes das colunas.
+salvar_resultado.py - Script principal que integra todas as etapas e salva o resultado final.
+Como Usar
+Coloque suas planilhas Excel dentro da pasta input/.
+Execute o script principal:
 python salvar_resultado.py
+
+
+
+
+
+
+
+🛡️ Este projeto está protegido sob a licença Creative Commons CC BY-NC-SA 4.0.  
+Uso comercial requer autorização.  
+[Mais informações sobre a licença.](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
